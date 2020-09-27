@@ -1,0 +1,163 @@
+
+header {
+	height: 140px;
+	background-color: #403933;
+	background-image:url(images/backgrounds/subtle_brown_mini_waves.png);
+}
+
+header .nav-link {
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 0;
+   }
+
+.nav-link {
+    margin-top: 25px;
+    word-spacing: 10px;
+}
+
+section {
+    background-size: cover;
+    background-color: white;
+}
+
+.card {
+    margin: 10%;
+}
+
+.logo, .link1, .link2, .link3{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 45px;
+    color: #c5c0b8;
+    text-align: center;
+    letter-spacing: -3;
+    margin: 0;
+    padding: 10px 0 0 0;
+  }
+
+  .logo-p {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    color: #c5c0b8;
+    text-align: center;
+    letter-spacing: -3;
+    margin: 0;
+    padding: 10px 0 0 0;
+  }
+
+.link1, .link2, .link3 {
+    text-align: center;
+    font-size: 25px;
+    color: #c5c0b8;
+    text-decoration: none;
+    padding-top: 25px;
+}
+
+.link1:hover {
+    color: chocolate;
+}
+.link2:hover {
+    color: chocolate;
+}
+.link3:hover {
+    color:chocolate;
+}
+.img-logo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.container, .container-fluid {
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    text-align: center;
+}
+
+.main_title {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 45px;
+    color: #c5c0b8;
+    text-align: center;
+    letter-spacing: -3;
+    margin: 0;
+}
+
+.main_description {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+    color: #61392e;
+    text-align: center;
+    letter-spacing: -3;
+    margin: 0;
+}
+
+.jobtitle {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+    color: #cf4d29;
+    text-align: center;
+    letter-spacing: -3;
+    margin: 0;
+}
+
+.mainbuttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    padding: 2px;
+}
+.btn{
+    margin-top: .5rem;
+    font-size: 1rem;
+    padding: 2px;
+    color: black;
+    width: 100px;
+}
+.btn:hover {
+    color: chocolate;
+}
+
+.main-icons {
+    display:flex;
+    flex-direction: row;
+    width:60px;
+    justify-content: space-around;
+    margin-top: 2px;
+}
+
+.icon1, .icon2, .icon3 {
+    color: black;
+    padding: 15px; 
+}
+
+.icon1:hover {
+    color: chocolate;
+}
+
+.icon2:hover {
+    color: chocolate;
+}
+
+.icon3:hover {
+    color: chocolate;
+}
+
+footer {
+    align-items: center;
+}
+
