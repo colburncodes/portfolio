@@ -152,6 +152,7 @@ img.rounded {
     text-align: center;
     letter-spacing: -3;
     margin: 0;
+    justify-content: center;
 }
 
 .jobtitle {
@@ -263,3 +264,24 @@ a {
     margin: 0;
     padding: 10px 0 0 0;
   }
+
+  #skillsList {
+      display: flex;
+      text-align: center;
+  }
+
+#skillsList div {
+    padding-bottom: .5em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 536px) {
+    .col-sm-12 {
+        flex: 0 0 30%; 
+        -ms-flex: 0 0 50%;
+        max-width: 100%;
+    }
+}
+
+    
