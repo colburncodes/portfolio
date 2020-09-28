@@ -9,6 +9,44 @@ header .nav-link {
     text-align: center;
 }
 
+/* When a web browser is larger than 600 pixels,
+   apply these rules */
+   @media all and (min-width: 600px) {
+
+    header {
+      /* Change the default setting from block to flex */
+      display: flex;
+      /* Push the items (the title and nav) to the far sides of the 
+         browser with space between them. */
+      justify-content: space-between;
+      /* Add 0 pixels padding top & bottom and 30 pixels left & 
+         right. */ 
+      padding: 0 30px;  
+    }
+  
+    header h1 {
+       /* Sets 14 pixels of margin above & below the h1 and set 
+          0 pixels to the left & right */
+      margin: 14px 0;
+      /* Remove or set 0 pixels of padding above the h1. */
+      padding-top: 0;
+    }
+  
+    header nav {
+      /* Push down the navigation container 8 pixels to make it present a little better visually within the space. */
+      margin-top: 8px;
+    }
+    /* Users cannot hover on mobile devices, so that is why we 
+       implement this behavior only for larger screens */
+    header nav ul li a:hover {
+      /* Targets the change when a user hovers over the anchor tag 
+         (link) within the list items within the unordered list that 
+         is within the nav that is within the header. */
+      color: #bdbdbd;
+    }
+  
+  }
+
 p {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5em;
@@ -95,6 +133,7 @@ img.rounded {
     align-items: center;
     height: max-content;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .main_title {
