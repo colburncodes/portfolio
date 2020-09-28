@@ -73,6 +73,15 @@ section {
     overflow: hidden;
 }
 
+img {
+    /* height: 300px; */
+    width: 100%;
+  }
+
+img.rounded {
+    border-radius: 8px;
+  }
+
 .container, .container-fluid {
     height: 100vh;
     justify-content: center;
@@ -160,4 +169,32 @@ section {
 footer {
     align-items: center;
 }
+
+.group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+  
+/* Groups & Items  (Desktop) */
+
+@media all and (min-width: 800px) {
+    .wrapper {
+      width: 80%;
+      margin: auto;
+    }
+  
+    .group {
+      flex-direction: row;
+    }
+  }
+
+ #portfolio {
+    margin-bottom: 120px;
+    font-family: 'Nanum Pen Script', cursive;
+  }
 
