@@ -25,8 +25,6 @@ header .nav-link {
     }
   
     header h1 {
-       /* Sets 14 pixels of margin above & below the h1 and set 
-          0 pixels to the left & right */
       margin: 14px 0;
       /* Remove or set 0 pixels of padding above the h1. */
       padding-top: 0;
@@ -34,7 +32,7 @@ header .nav-link {
   
     header nav {
       /* Push down the navigation container 8 pixels to make it present a little better visually within the space. */
-      margin-top: 8px;
+      margin-top: 10px;
     }
     /* Users cannot hover on mobile devices, so that is why we 
        implement this behavior only for larger screens */
